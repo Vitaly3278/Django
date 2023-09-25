@@ -18,24 +18,7 @@ class Product(models.Model):
 
 
 class Order(models.Model):
-
-
-    — связь
-    с
-    моделью «Клиент», указывает
-    на
-    клиента, сделавшего
-    заказ
-    — связь
-    с
-    моделью «Товар», указывает
-    на
-    товары, входящие
-    в
-    заказ
-    — общая
-    сумма
-    заказа
-    — дата
-    оформления
-    заказа
+    customer = models.ForeignKey(User, on_delete=models.CASCADE)
+    products = models.ManyToManyField(Product)
+    date_ordered = models.TextField(Product)
+    total_price = models.DecimalField(max_digits=8, decimal_places=2)
