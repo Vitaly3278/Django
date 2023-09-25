@@ -16,3 +16,10 @@ INFO 2023-09-25 18:53:00,579 autoreload 16852 12592 E:\GB\Django\HW\HW\urls.py c
 INFO 2023-09-25 18:53:00,839 autoreload 13500 15100 Watching for file changes with StatReloader
 INFO 2023-09-25 18:53:03,112 basehttp 13500 10716 "GET / HTTP/1.1" 200 865
 INFO 2023-09-25 18:53:05,409 basehttp 13500 10716 "GET /about/ HTTP/1.1" 200 666
+INFO 2023-09-25 19:21:32,287 autoreload 11796 10144 Watching for file changes with StatReloader
+INFO 2023-09-25 19:21:35,610 basehttp 11796 14184 "GET / HTTP/1.1" 200 865
+INFO 2023-09-25 19:21:38,287 basehttp 11796 14184 "GET /about/ HTTP/1.1" 200 666
+INFO 2023-09-25 19:26:51,667 autoreload 6680 20204 Watching for file changes with StatReloader
+INFO 2023-09-25 19:32:13,906 autoreload 20592 20760 Watching for file changes with StatReloader
+INFO 2023-09-25 19:32:15,990 basehttp 20592 16816 "GET / HTTP/1.1" 200 865
+INFO 2023-09-25 19:32:17,780 basehttp 20592 16816 "GET / HTTP/1.1" 200 865

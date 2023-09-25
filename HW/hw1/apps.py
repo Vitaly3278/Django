@@ -1,6 +1,6 @@
 from django.apps import AppConfig
 
 
-class Hw2Config(AppConfig):
+class Hw1Config(AppConfig):
     default_auto_field = 'django.db.models.BigAutoField'
-    name = 'HW2'
+    name = 'hw1'
