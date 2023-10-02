@@ -10,7 +10,7 @@ class ProductFormWidget(forms.Form):
     price = forms.FloatField(widget=forms.NumberInput(attrs={'class': 'form-control'}))
     description = forms.CharField(widget=forms.Textarea(attrs={'class': 'form-control'}))
     number = forms.IntegerField(min_value=0)
-    image = forms.ImageField()
+    image = forms.ImageField() # <--- forms for photo
 
 class ProductChoiceForm(forms.Form):
     products = Product.objects.all()

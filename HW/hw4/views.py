@@ -1,5 +1,4 @@
 import logging
-
 from django.core.files.storage import FileSystemStorage
 from django.shortcuts import render
 from .forms import ProductFormWidget, ProductChoiceForm
