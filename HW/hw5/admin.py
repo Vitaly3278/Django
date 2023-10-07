@@ -12,7 +12,7 @@ class ProductAdmin(admin.ModelAdmin):
     ordering = ['name', '-quantity']
     list_filter = ['price']
     search_fields = ['description']
-    search_help_text = 'Поиск по полю Описание продукта (description)'
+    search_help_text = 'Поиск по Описание продукта (description)'
     actions = [reset_quantity]
 
 
