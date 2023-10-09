@@ -23,4 +23,5 @@ urlpatterns = [
     path('', include('hw1.urls')),
     path('homework3/', include('hw2.urls')),
     path('homework4/', include('hw4.urls')),
+    #path('__debug__/', include("debug_toolbar.urls")),
 ]
